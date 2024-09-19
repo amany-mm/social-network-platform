@@ -1,0 +1,17 @@
+# Byte-compiled
+__pycache__/
+
+# Environments
+.env
+env/
+.venv/
+venv/
+
+# Databases
+db.sqlite3
+
+# .env
+.env
+
+# media
+media/

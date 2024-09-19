@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your favourite Social network </title>
+    <link rel="stylesheet" href="../static/blog/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <div>
+                <img src="../static/blog/images/landing_img.jpg" alt="Twitter">
+            </div>
+            <section>
+                <h4 class="font-weight-bold my-4">Join us now</h4>
+                <p class="lead text-muted">Become part of our community and connect with others.</p>
+                <button class="btn btn-blue" onclick="location.href='{% url 'register-users'%}'">Sign up</button>
+                <button class="btn" onclick="location.href='{% url 'login'%}'">Log in</button>
+            </section>
+        </main>
+        <footer>
+            <ol>
+                <li><a href="{% url 'blog-about' %}">about</a></li>
+                <li>&copy; 2024</li>
+            </ol>
+        </footer>
+    </div>
+</body>
+
+</html>
